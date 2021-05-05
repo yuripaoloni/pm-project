@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+
+WARNING: Do not manually edit this file, unless you know what you are doing!
+
+This file has been generated with libPlg v.2.0.6.
+Check https://github.com/delas/plg for sources and other stuff.
+
+ -->
+<process>
+	<!-- This is the list of all meta-attributes of the process -->
+	<meta>
+		<LibPLG_NAME>libPlg</LibPLG_NAME>
+		<libPLG_VERSION>2.0.6</libPLG_VERSION>
+		<name>Process 10</name>
+		<id>vjh5ctbbe0271gu9nc1gve9lbv</id>
+	</meta>
+	<!-- This is the list of all actual process elements -->
+	<elements>
+		<startEvent id="346"/>
+		<task id="352" name="Activity C">
+			<script/>
+		</task>
+		<task id="370" name="Activity I">
+			<script/>
+		</task>
+		<task id="355" name="Activity D">
+			<script/>
+		</task>
+		<task id="371" name="Activity J">
+			<script/>
+		</task>
+		<task id="356" name="Activity E">
+			<script/>
+		</task>
+		<task id="357" name="Activity F">
+			<script/>
+		</task>
+		<task id="373" name="Activity K">
+			<script/>
+		</task>
+		<task id="348" name="Activity A">
+			<script/>
+		</task>
+		<task id="364" name="Activity G">
+			<script/>
+		</task>
+		<task id="365" name="Activity H">
+			<script/>
+		</task>
+		<task id="351" name="Activity B">
+			<script/>
+		</task>
+		<gateway id="353" type="ExclusiveGateway"/>
+		<gateway id="354" type="ExclusiveGateway"/>
+		<gateway id="349" type="ExclusiveGateway"/>
+		<gateway id="350" type="ExclusiveGateway"/>
+		<endEvent id="347"/>
+		<sequenceFlow id="358" sourceRef="353" targetRef="356"/>
+		<sequenceFlow id="359" sourceRef="356" targetRef="354"/>
+		<sequenceFlow id="360" sourceRef="354" targetRef="357"/>
+		<sequenceFlow id="361" sourceRef="357" targetRef="353"/>
+		<sequenceFlow id="362" sourceRef="352" targetRef="353"/>
+		<sequenceFlow id="363" sourceRef="354" targetRef="355"/>
+		<sequenceFlow id="366" sourceRef="364" targetRef="365"/>
+		<sequenceFlow id="367" sourceRef="355" targetRef="364"/>
+		<sequenceFlow id="368" sourceRef="349" targetRef="352"/>
+		<sequenceFlow id="369" sourceRef="365" targetRef="350"/>
+		<sequenceFlow id="372" sourceRef="370" targetRef="371"/>
+		<sequenceFlow id="374" sourceRef="371" targetRef="373"/>
+		<sequenceFlow id="375" sourceRef="349" targetRef="370"/>
+		<sequenceFlow id="376" sourceRef="373" targetRef="350"/>
+		<sequenceFlow id="377" sourceRef="348" targetRef="349"/>
+		<sequenceFlow id="378" sourceRef="350" targetRef="351"/>
+		<sequenceFlow id="379" sourceRef="346" targetRef="348"/>
+		<sequenceFlow id="380" sourceRef="351" targetRef="347"/>
+	</elements>
+</process>
