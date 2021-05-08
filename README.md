@@ -1,6 +1,6 @@
 # pm-project
 
-Process Mining project developed using [PM4PY](https://pm4py.fit.fraunhofer.de/]).
+Process Mining project developed using [PM4PY](https://pm4py.fit.fraunhofer.de).
 
 ## Structure
 
