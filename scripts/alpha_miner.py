@@ -1,7 +1,7 @@
 import sys
 from import_xes import import_xes
 from pm4py.algo.discovery.alpha import algorithm as alpha_miner
-from pm4py.visualization.petrinet import visualizer as pn_visualizer
+from pm4py.visualization.petri_net import visualizer as pn_visualizer
 
 
 def run_alpha_miner(event_log):
