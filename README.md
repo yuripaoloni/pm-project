@@ -7,9 +7,9 @@ Application of Process Mining techniques and algorithms on artificial logs gener
 The repository has the following folder structure:
 
 - _scripts_ : contains the Python scripts defined to run the Process Discovery and Conformance Checking algorithms.
-- _logs_ : contains the artificial logs used in the application.
-- _models_ : contains the models from which the logs have been generated and the output models from the Process Discovery algorithms.
-- _docs_ : contains the project documentation
+- _logs_ : contains the analyzed artificial logs.
+- _models_ : contains the model from which the logs have been generated and the output models obtained from the Process Discovery algorithms.
+- _docs_ : contains the project's documentation
 
 ## Execution
 
